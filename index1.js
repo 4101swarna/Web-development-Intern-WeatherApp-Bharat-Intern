@@ -6,13 +6,13 @@ async function showWeather() {
     placename.value = "";
 
     // Construct the API URL with the city name
-    const url = `https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=${cityName}`;
+    const url = 'https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=';
     
     // Define the request options
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '0765337edemsh6600b541d090c2bp1c49e1jsn34b69b0a04b5',
+            'X-RapidAPI-Key': '26f1b4fc4bmsh68511c51af77464p12739bjsn9b9f9f28038a',
             'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
         }
     };
